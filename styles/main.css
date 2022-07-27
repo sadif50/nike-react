@@ -1,0 +1,106 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.p-font-custom {
+    font-size: 16px;
+    color: #3e3e3e;
+    line-height: 24px;
+}
+
+/* Navbar CSS */
+.main-header {
+    background-color: #FFF9F4;
+}
+
+.navbar-brand img {
+    height: 40px;
+}
+
+.navbar-custom-class {
+    gap: 40px;
+}
+
+.navbar-custom-class .nav-item .nav-link {
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 500;
+}
+
+/* Slider CSS */
+
+.slider-box .slider-img {
+    width: 40%;
+}
+
+.slider-box .slider-text {
+    width: 50%;
+}
+
+.slider-box .slider-text a img {
+    width: 20px;
+}
+
+.slider-box .slider-text h1 {
+    font-size: 64px;
+    line-height: 1.3;
+    font-weight: 800;
+}
+
+.orange-text {
+    color: #FA804C;
+}
+
+.cart-image-box {
+    overflow: hidden;
+    height: 310px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Mobile Responsive */
+
+@media screen and (max-width: 767px) {
+    .navbar-brand img {
+        height: 30px;
+    }
+
+    .slider-box .slider-img {
+        width: 100%;
+    }
+
+    .slider-box .slider-text {
+        width: 100%;
+    }
+
+    .slider-box .slider-text h1 {
+        font-size: 40px;
+    }
+
+    .navbar-custom-class {
+        gap: 10px;
+    }
+
+    .utility-text {
+        text-align: center;
+    }
+}
+
+/* Tablet Devices */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .slider-box .slider-text h1 {
+        font-size: 40px;
+    }
+
+    .navbar-custom-class {
+        gap: 10px;
+    }
+
+    .utility-text {
+        text-align: center;
+    }
+}
